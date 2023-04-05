@@ -1,18 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <MyComponent></MyComponent>
+  <MyFirstComponent></MyFirstComponent>
+  <MySecondComponentForContact></MySecondComponentForContact>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import MyComponent from "@/components/MyFirstComponent.vue";
+import MyFirstComponent from "@/components/MyFirstComponent.vue";
+import MySecondComponentForContact from "@/components/MySecondComponent.vue";
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    MyComponent
+    MyFirstComponent,
+    MySecondComponentForContact
   }
 }
 </script>
